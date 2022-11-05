@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/ninogogol/Four-card-feature-section-solution/settings/pages)
+- Solution URL: [GitHub Repository](https://github.com/ninogogol/Four-card-feature-section-solution)
 - Live Site URL: [GitHub Page](https://ninogogol.github.io/Four-card-feature-section-solution/)
 
 ## My process
