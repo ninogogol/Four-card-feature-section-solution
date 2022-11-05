@@ -1,0 +1,170 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+    margin-bottom: 13px;
+}
+
+h2 {
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.166667px;
+    color: #4D4F62;
+    margin-top: 85px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4F62;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    max-width: 540px;
+}
+
+.margin{
+    margin: 0 40px 76px;
+}
+
+.grid-item p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    color: #4D4F62;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: left;
+}
+
+/* Color divs */
+.colored-div {
+    width: 311px;
+    height: 3.55px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 8px 8px 0 0;
+}
+
+.cyan {
+    background-color: #44D3D2;
+}
+
+.red {
+    background-color: #EA5454;
+}
+
+.yellow {
+    background-color: #FCAE4A;
+}
+
+.blue {
+    background-color: #549EF2;
+}
+
+/* White Div */
+.white {
+    width: 311px;
+    height: 218.45px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+    border-radius: 0 0 8px 8px;
+    padding: 28px;
+}
+
+/* Other Sytels */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 25px;
+}
+
+img {
+    width: 57px;
+    float: right;
+    margin-top: 33px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 16px 0; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* Styles for Desktop */
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.25px;
+        color: #4D4F62;
+    }
+    .grid {
+        gap: 30px;
+    }
+    .item-1 {
+        grid-area: 2/1/4/6;
+    }
+    .item-2 {
+        grid-area: 1/6/3/8;
+    }
+    .item-3 {
+        grid-area: 3/6/5/8;
+    }
+    .item-4 {
+        grid-area: 2/8/4/10;
+    }
+}
