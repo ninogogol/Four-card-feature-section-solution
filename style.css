@@ -168,3 +168,11 @@ footer {
         grid-area: 2/8/4/10;
     }
 }
+
+.grid-item:hover {
+    cursor: pointer;
+    transform: scale(1.05); /* Slightly enlarge the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15), 0 6px 6px rgba(0, 0, 0, 0.10); /* Add a larger shadow */
+    transition: 0.3s;
+    border-radius: 0 0 8px 8px;
+}
